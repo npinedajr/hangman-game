@@ -286,7 +286,7 @@ def playGame(word):
 
 def makeMystery(word):
     """
-    Inputs: A string, which represents the word that the user is solving for
+    Inputs: A string, which represents the word that the user is solving for.
     Returns: A string, which represents the user's current progress in solving the word.
     Purpose: Create a new string, which has the same length as the word entered and converts 
              all letters into asteriks, allowing the user to guess for the letter contained in 
@@ -328,7 +328,7 @@ def inputLetter(lettersGuessed):
 
 def updateMystery(letter,word,mystery):
     """
-    Inputs: A string named letter, which represents the letter the user guessed 
+    Inputs: A string named letter, which represents the letter the user guessed. 
             A string named word, which is the word the user is guessing for.
             A string named mystery, which represents the user's progress in solving the word.
     Returns: A string, which represents the updated progress for the user solving the word.
